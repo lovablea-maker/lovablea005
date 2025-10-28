@@ -90,6 +90,53 @@ const Lovable = () => {
         </section>
 
         <section>
+          <h2 className="text-2xl font-semibold mb-4 text-foreground">適合參加的對象</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">行銷人員</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                想要快速建立活動網站、落地頁或產品展示頁的行銷專業人士，無需依賴工程團隊即可完成各種行銷活動頁面。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">設計師</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                希望將設計作品實現為可運行網站，並能自主控制互動效果與用戶體驗的設計師，讓創意不再受技術限制。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">專案管理者</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                需要統籌網站開發、內容管理和用戶追蹤的專案 PM，能夠在有限資源下實現高效率的專案執行與成果呈現。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">創業者</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                需要快速部署網站並整合各種工具，以低成本實現商業想法的創業家，讓產品快速上線並迭代優化。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">教育工作者</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                想要建立互動式學習平台、數位教材或教育資源網站的教師與教育工作者，提升學生的學習體驗與參與度。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-muted/30 to-muted/50 border border-border">
+              <h3 className="text-lg font-semibold text-foreground mb-3">自由工作者</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                需要打造個人品牌網站、作品集或服務展示頁面的自由工作者，建立專業形象並吸引潛在客戶。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
           <h2 className="text-2xl font-semibold mb-4 text-foreground">一天完整學習路徑</h2>
           <p className="text-muted-foreground mb-6">
             從理論到實戰，循序漸進掌握 Vibe Coding × 自動化 × AI Agent 協同任務
@@ -170,6 +217,53 @@ const Lovable = () => {
               <h3 className="text-lg font-semibold text-foreground mb-2">整合實作與成果發表</h3>
               <p className="text-muted-foreground leading-relaxed">
                 將所學技能整合應用，完成個人專案實作，並進行成果展示與講師點評。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold mb-4 text-foreground">完成課程後，你將獲得的核心能力</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">網站快速開發</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                能夠在短時間內從零開始打造專業級網站，並根據需求靈活調整設計與功能，無需依賴開發團隊。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">自動化流程設計</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                熟練掌握 Make/n8n 自動化平台，能夠設計複雜的工作流程，實現資料收集、處理與分析的自動化。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">AI 整合應用</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                了解如何將 Dify AI Agent 融入網站，創建智能客服、內容推薦與用戶互動功能，提升用戶體驗。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">成本優化管理</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                掌握 Lovable credits 獲取秘技與最佳使用方法，大幅降低運營成本，提升投資回報率。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">系統整合能力</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                能夠將多種工具與平台串接整合，建立完整的數位生態系統，讓各組件協同工作達成複雜任務。
+              </p>
+            </div>
+
+            <div className="p-6 rounded-xl bg-gradient-to-br from-primary/10 to-primary/20 border border-primary/30">
+              <h3 className="text-lg font-semibold text-foreground mb-3">技術自主能力</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                擺脫對外部技術團隊的依賴，能夠自行維護、更新與擴展網站功能，掌握數位資產的完全控制權。
               </p>
             </div>
           </div>
