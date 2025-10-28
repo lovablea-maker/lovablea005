@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 import { useLanguage } from "@/contexts/LanguageContext";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const Index = () => {
   const navigate = useNavigate();
@@ -38,7 +39,12 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-muted/20 to-background">
+    <div 
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: `url(${heroBackground})` }}
+    >
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      <div className="relative z-10">
       <header className="absolute top-0 right-0 p-6 flex items-center gap-3">
         <ThemeSwitcher />
         <LanguageSwitcher />
@@ -207,6 +213,7 @@ const Index = () => {
             </p>
           </div>
         </footer>
+      </div>
       </div>
     </div>
   );
