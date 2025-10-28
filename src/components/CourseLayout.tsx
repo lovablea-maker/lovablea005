@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { LucideIcon } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
 
 interface CourseLayoutProps {
   title: string;
@@ -10,8 +11,12 @@ interface CourseLayoutProps {
 
 export function CourseLayout({ title, subtitle, icon: Icon, children }: CourseLayoutProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-muted/30">
-      <div className="container mx-auto px-6 py-12 max-w-5xl">
+    <div 
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      style={{ backgroundImage: `url(${heroBackground})` }}
+    >
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      <div className="relative z-10 container mx-auto px-6 py-12 max-w-5xl">
         <div className="mb-8">
           <div className="flex items-center gap-4 mb-4">
             <div className="p-3 rounded-xl bg-gradient-to-br from-primary to-accent shadow-lg">
